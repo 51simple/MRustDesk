@@ -99,7 +99,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["180.184.29.215"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["115.190.39.96"];
 pub const PUBLIC_RS_PUB_KEY: &str = "XF3mLPu2HsP9KUX92OVMjvYvdeuPn5mXzbWauaKbsxA=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
